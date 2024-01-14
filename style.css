@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body{
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(142, 245, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .panel{
+    overflow: hidden;
+    height: 90%;
+    width: 80%;
+    background-color: rgb(233, 243, 243);
+    border-radius: 10px;
+  
+  }
+  
+  .tPanel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(15, 99, 13);
+    gap: 20px;
+    padding: 0px 40%;
+  
+  }
+  
+  .elem{
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+    color: white;
+  }
+  
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(24, 124, 36);
+    background-color: aliceblue; 
+    font-size: 25px;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .pBottom{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100%-100px);
+    
+  }
+  
+  .bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(13, 154, 86);
+    border-radius: 50%;
+    color: white;
+  }
+  .bubble:hover{
+    color: rgb(235, 243, 238);
+    background-color: green;
+  } 
